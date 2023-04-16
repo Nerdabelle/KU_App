@@ -22,19 +22,19 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="350dp"
             android:background="@drawable/circle"
-            android:text="Call"
+            android:text="Call for Help"
             android:textColor="#FFFFFF"
-            android:textSize="32sp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/myButton2"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_above="@id/myButton"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="-300dp"
             android:background="@drawable/bluecircle"
-            android:text="WebView"
+            android:text="Report a Barrier"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:layout_marginTop="40dp"/>
