@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/circle"
+            android:text="Call"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/myButton2"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_above="@id/myButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-300dp"
+            android:background="@drawable/bluecircle"
+            android:text="WebView"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
